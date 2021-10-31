@@ -1,3 +1,4 @@
+
 package com.example.analytics.fragments;
 
 import android.content.Intent;
@@ -5,6 +6,7 @@ import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.LayoutInflater;
@@ -12,10 +14,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.example.analytics.R;
 import com.example.analytics.activitys.VisualizacaoActivity;
+import com.example.analytics.adapter.AdapterCartazVertical;
+import com.example.analytics.model.CartazVerticalModel;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
@@ -25,9 +30,7 @@ public class ViewPagerConteudoFragment extends Fragment {
     private FloatingActionButton fabMais, fabConteudo, fabShortBook, fabDonwload;
     private Animation fabOpen, fabCloser, rotateFarward,rotateBackward;
     private RecyclerView recyclerNovidades, recyclerRecomendacao, recyclerContinue, recyclerCloretos;
-
-    private AdapterNovidades.RecyclerViewClickListner listner;
-    private List<NovidadesModel> novidadesModels = new ArrayList<>();
+    private  List<CartazVerticalModel> listacartazVerticalModels = new ArrayList<>();
 
     boolean isOpen = false;
 
@@ -60,7 +63,8 @@ public class ViewPagerConteudoFragment extends Fragment {
         fabShortBook.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(getContext(),VisualizacaoActivity.class);
+                startActivity(intent);
             }
         });
 
@@ -72,24 +76,23 @@ public class ViewPagerConteudoFragment extends Fragment {
             }
         });
 
-
         recyclerNovidades = view.findViewById(R.id.recyclerNovidades);
-        setOnClickListner();
-        //this.preparaNovidades();
-        AdapterNovidades adapterNovidades = new AdapterNovidades(novidadesModels, listner);
-        recyclerNovidades.setAdapter(adapterNovidades);
+        //cONFIGURAR rECYCLERvIEW
 
-        //Configurar RecyclerView
-        RecyclerView.LayoutManager layoutManager = new GridLayoutManager(getContext(),1);
-        recyclerNovidades.setLayoutManager(layoutManager);
-        recyclerNovidades.setHasFixedSize(true);
+        LinearLayoutManager layoutManager = new LinearLayoutManager(getContext(), LinearLayoutManager.HORIZONTAL,false);
+         recyclerNovidades.setLayoutManager(layoutManager);
+       // recyclerNovidades.setHasFixedSize(true);
+        //Config Adapter
+        preparaCartazVertical();
+        AdapterCartazVertical adapterCartazVertical = new AdapterCartazVertical(listacartazVerticalModels);
+        recyclerNovidades.setAdapter(adapterCartazVertical);
 
         return view;
     }
 
     //---------------------------------------------------------------------------------------------------------------------------------//
 
-    private void setOnClickListner() {
+    /* void setOnClickListner() {
         listner = new AdapterNovidades.RecyclerViewClickListner() {
             @Override
             public void onClick(View v, int position) {
@@ -99,24 +102,24 @@ public class ViewPagerConteudoFragment extends Fragment {
             }
         };
     };
-
-    /*public void preparaNovidades(){
-        NovidadesModel g = new NovidadesModel(R.drawable.national);
-        this.novidadesModels.add(g);
-        g = new NovidadesModel("Passo 2: Solubilização do chumbo","Adiciona gotas de cromato de potássio","Houve a formação de um precipitado amarelo?");
-        this.novidadesModels.add(g);
-        g = new NovidadesModel("Passo 3: Identificação do chumbo","Adiciona gotas de cromato de potássio","Houve a formação de um precipitado amarelo?");
-        this.novidadesModels.add(g);
-        g = new NovidadesModel("Passo 2: Solubilização do chumbo","Adiciona gotas de cromato de potássio","Houve a formação de um precipitado amarelo?");
-        this.novidadesModels.add(g);
-        g = new NovidadesModel("Passo 3: Identificação do chumbo","Adiciona gotas de cromato de potássio","Houve a formação de um precipitado amarelo?");
-        this.novidadesModels.add(g);
-        g = new NovidadesModel("Passo 2: Solubilização do chumbo","Adiciona gotas de cromato de potássio","Houve a formação de um precipitado amarelo?");
-        this.novidadesModels.add(g);
-        g = new NovidadesModel("Passo 3: Identificação do chumbo","Adiciona gotas de cromato de potássio","Houve a formação de um precipitado amarelo?");
-        this.novidadesModels.add(g);
-    }
 */
+    public void preparaCartazVertical(){
+        CartazVerticalModel g = new CartazVerticalModel(R.drawable.cloretosinsoluveis);
+        this.listacartazVerticalModels.add(g);
+        g = new CartazVerticalModel(R.drawable.imgtest);
+        this.listacartazVerticalModels.add(g);
+        g = new CartazVerticalModel(R.drawable.imgtest);
+        this.listacartazVerticalModels.add(g);
+        g = new CartazVerticalModel(R.drawable.imgtest);
+        this.listacartazVerticalModels.add(g);
+        g = new CartazVerticalModel(R.drawable.imgtest);
+        this.listacartazVerticalModels.add(g);
+        g = new CartazVerticalModel(R.drawable.imgtest);
+        this.listacartazVerticalModels.add(g);
+        g = new CartazVerticalModel(R.drawable.imgtest);
+        this.listacartazVerticalModels.add(g);
+    }
+
 
     public void animateFab(){
         if(isOpen){
