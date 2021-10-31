@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2203125" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/drawable/background_fundo.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/drawable/background_fundo_buy.xml" value="0.1638888888888889" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/drawable/button_custom.xml" value="0.16203703703703703" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/drawable/custom_tab.xml" value="0.2203125" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/drawable/ic_baseline_add_circle_outline_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/drawable/ic_baseline_add_circle_outline_f_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/drawable/ic_baseline_bar_chart_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/drawable/ic_baseline_bar_chart_f_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/drawable/ic_baseline_info_24.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/drawable/ic_baseline_play_circle_filled_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/drawable/ic_baseline_playlist_add_check_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/drawable/ic_baseline_playlist_add_check_f_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/drawable/ic_baseline_video_library_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/drawable/ic_baseline_video_library_f_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2203125" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.163671875" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout-w936dp/activity_login.xml" value="0.153125" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/activity_fab.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/activity_fragments.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/activity_grupos.xml" value="0.18" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/activity_grupos_anions.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/activity_grupos_cations.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/activity_main2.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/activity_principal.xml" value="0.22" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/activity_short_book.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/activity_slader.xml" value="0.1" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/activity_teoria.xml" value="0.33" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/activity_visualizacao.xml" value="0.25" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/adapter_fluxograma_analises.xml" value="0.6902887139107612" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/analises_adapter.xml" value="0.33" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/custom_tab.xml" value="0.33" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/custom_tab_f.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_anions.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_cadastro.xml" value="0.33" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_cations.xml" value="0.22" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_conteudo.xml" value="0.22" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_conteudo_.xml" value="0.22" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_diagrama_de_topo_anions.xml" value="0.22" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_donwload.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_estatistica3.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_estatistica_.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_extra.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_first.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_fluxograma_analise.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_fluxograma_analise_cations.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_fluxograma_cloretos_insoluveis.xml" value="0.25" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_grupos_cations.xml" value="0.25" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_lista_.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_login.xml" value="0.2" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_login_ou_cadastro.xml" value="0.25" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_novo1.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_novo_experimento_fragment.xml" value="0.22" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_previa_conteudo.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_shortbook.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_view_pager_conteudo.xml" value="0.25" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_view_pager_estatistica.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_view_pager_lista.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_view_pager_novoex.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/grupos_anions_adapter.xml" value="0.33" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/grupos_cations_adapter.xml" value="0.25" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/grupos_cations_adapter_a.xml" value="0.18" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/novidade_adapter.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2203125" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.21203703703703702" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/mipmap-anydpi-v26/logo.xml" value="0.17685185185185184" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

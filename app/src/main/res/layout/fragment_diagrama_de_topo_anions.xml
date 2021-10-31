@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".fragments.DiagramaDeTopoAnionsFragment">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:elevation="8dp"
+        app:cardElevation="8dp"
+        app:cardMaxElevation="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="50dp"
+                android:layout_height="0dp"
+                android:background="@color/transparente"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:fontFamily="@font/copse"
+                android:gravity="center"
+                android:text="Diagrama de topo"
+                android:textColor="@color/cor_tema"
+                android:textSize="25sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <ScrollView
+
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView3">>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="8dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/sulfeto"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="8dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/sulfito"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/progressBar" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/tiosulfato"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/progressBar6" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="8dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/nitrito"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/progressBar11" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="8dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/hipoclorito"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/progressBar15" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="8dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/carbonato"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/progressBar18" />
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="8dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/cianeto"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/progressBar19" />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:max="1400"
+                android:progress="1400"
+                android:progressBackgroundTint="@color/transparente"
+                android:progressTint="@color/cor_tema"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+            <ProgressBar
+                android:id="@+id/progressBar2"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:max="1400"
+                android:progress="1389"
+                android:progressBackgroundTint="@color/transparente"
+                android:progressTint="#FF9100"
+                app:layout_constraintEnd_toEndOf="@+id/progressBar"
+                app:layout_constraintStart_toStartOf="@+id/progressBar"
+                app:layout_constraintTop_toTopOf="@+id/progressBar" />
+
+            <ProgressBar
+                android:id="@+id/progressBar3"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:max="1400"
+                android:progress="1189"
+                android:progressBackgroundTint="@color/transparente"
+                android:progressTint="@color/cor_tema"
+                app:layout_constraintEnd_toEndOf="@+id/progressBar"
+                app:layout_constraintStart_toStartOf="@+id/progressBar"
+                app:layout_constraintTop_toTopOf="@+id/progressBar" />
+
+            <ProgressBar
+                android:id="@+id/progressBar4"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:max="1400"
+                android:progress="799"
+                android:progressBackgroundTint="@color/transparente"
+                android:progressTint="#FF9100"
+                app:layout_constraintEnd_toEndOf="@+id/progressBar"
+                app:layout_constraintStart_toStartOf="@+id/progressBar"
+                app:layout_constraintTop_toTopOf="@+id/progressBar" />
+
+            <ProgressBar
+                android:id="@+id/progressBar5"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:max="1400"
+                android:progress="599"
+                android:progressBackgroundTint="@color/transparente"
+                android:progressTint="@color/cor_tema"
+                app:layout_constraintEnd_toEndOf="@+id/progressBar"
+                app:layout_constraintStart_toStartOf="@+id/progressBar"
+                app:layout_constraintTop_toTopOf="@+id/progressBar" />
+
+            <ProgressBar
+                android:id="@+id/progressBar6"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:max="1400"
+                android:progress="1400"
+                android:progressBackgroundTint="@color/transparente"
+                android:progressTint="@color/cor_tema"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+            <ProgressBar
+                android:id="@+id/progressBar7"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:max="1400"
+                android:progress="820"
+                android:progressBackgroundTint="@color/transparente"
+                android:progressTint="#FF9100"
+                app:layout_constraintEnd_toEndOf="@+id/progressBar6"
+                app:layout_constraintStart_toStartOf="@+id/progressBar6"
+                app:layout_constraintTop_toTopOf="@+id/progressBar6" />
+
+            <ProgressBar
+                android:id="@+id/progressBar8"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:max="1400"
+                android:progress="620"
+                android:progressBackgroundTint="@color/transparente"
+                android:progressTint="@color/cor_tema"
+                app:layout_constraintEnd_toEndOf="@+id/progressBar6"
+                app:layout_constraintStart_toStartOf="@+id/progressBar6"
+                app:layout_constraintTop_toTopOf="@+id/progressBar6" />
+
+            <ProgressBar
+                android:id="@+id/progressBar9"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:max="1400"
+                android:progress="276"
+                android:progressBackgroundTint="@color/transparente"
+                android:progressTint="#FF9100"
+                app:layout_constraintEnd_toEndOf="@+id/progressBar6"
+                app:layout_constraintStart_toStartOf="@+id/progressBar6"
+                app:layout_constraintTop_toTopOf="@+id/progressBar6" />
+
+            <ProgressBar
+                android:id="@+id/progressBar10"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:max="1400"
+                android:progress="76"
+                android:progressBackgroundTint="@color/transparente"
+                android:progressTint="@color/cor_tema"
+                app:layout_constraintEnd_toEndOf="@+id/progressBar6"
+                app:layout_constraintStart_toStartOf="@+id/progressBar6"
+                app:layout_constraintTop_toTopOf="@+id/progressBar6" />
+
+            <ProgressBar
+                android:id="@+id/progressBar11"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:max="1400"
+                android:progress="1400"
+                android:progressBackgroundTint="@color/transparente"
+                android:progressTint="@color/cor_tema"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+
+            <ProgressBar
+                android:id="@+id/progressBar12"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:max="1400"
+                android:progress="272"
+                android:progressBackgroundTint="@color/transparente"
+                android:progressTint="#FF9100"
+                app:layout_constraintEnd_toEndOf="@+id/progressBar11"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/progressBar11"
+                app:layout_constraintTop_toTopOf="@+id/progressBar11" />
+
+            <ProgressBar
+                android:id="@+id/progressBar13"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:max="1400"
+                android:progress="1400"
+                android:progressBackgroundTint="@color/transparente"
+                android:progressTint="@color/cor_tema"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+            <ProgressBar
+                android:id="@+id/progressBar14"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:max="1400"
+                android:progress="429"
+                android:progressBackgroundTint="@color/transparente"
+                android:progressTint="#FF9100"
+                app:layout_constraintEnd_toEndOf="@+id/progressBar13"
+                app:layout_constraintStart_toStartOf="@+id/progressBar13"
+                app:layout_constraintTop_toTopOf="@+id/progressBar13" />
+
+            <ProgressBar
+                android:id="@+id/progressBar15"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:max="1400"
+                android:progress="228"
+                android:progressBackgroundTint="@color/transparente"
+                android:progressTint="@color/cor_tema"
+                app:layout_constraintEnd_toEndOf="@+id/progressBar13"
+                app:layout_constraintStart_toStartOf="@+id/progressBar13"
+                app:layout_constraintTop_toTopOf="@+id/progressBar13" />
+
+            <ProgressBar
+                android:id="@+id/progressBar16"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:max="1400"
+                android:progress="1400"
+                android:progressBackgroundTint="@color/transparente"
+                android:progressTint="@color/cor_tema"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView13" />
+
+            <ProgressBar
+                android:id="@+id/progressBar17"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:max="1400"
+                android:progress="853"
+                android:progressBackgroundTint="@color/transparente"
+                android:progressTint="#FF9100"
+                app:layout_constraintEnd_toEndOf="@+id/progressBar16"
+                app:layout_constraintStart_toStartOf="@+id/progressBar18"
+                app:layout_constraintTop_toTopOf="@+id/progressBar18" />
+
+            <ProgressBar
+                android:id="@+id/progressBar18"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:max="1400"
+                android:progress="653"
+                android:progressBackgroundTint="@color/transparente"
+                android:progressTint="@color/cor_tema"
+                app:layout_constraintEnd_toEndOf="@+id/progressBar16"
+                app:layout_constraintStart_toStartOf="@+id/progressBar16"
+                app:layout_constraintTop_toTopOf="@+id/progressBar16" />
+
+            <ProgressBar
+                android:id="@+id/progressBar19"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:max="1400"
+                android:progress="1400"
+                android:progressBackgroundTint="@color/transparente"
+                android:progressTint="@color/cor_tema"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView14" />
+
+            <ProgressBar
+                android:id="@+id/progressBar20"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:max="1400"
+                android:progress="1125"
+                android:progressBackgroundTint="@color/transparente"
+                android:progressTint="#FF9100"
+                app:layout_constraintEnd_toEndOf="@+id/progressBar23"
+                app:layout_constraintStart_toStartOf="@+id/progressBar19"
+                app:layout_constraintTop_toTopOf="@+id/progressBar19" />
+
+            <ProgressBar
+                android:id="@+id/progressBar21"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:max="1400"
+                android:progress="924"
+                android:progressBackgroundTint="@color/transparente"
+                android:progressTint="@color/cor_tema"
+                app:layout_constraintEnd_toEndOf="@+id/progressBar19"
+                app:layout_constraintStart_toStartOf="@+id/progressBar19"
+                app:layout_constraintTop_toTopOf="@+id/progressBar19" />
+
+            <ProgressBar
+                android:id="@+id/progressBar22"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:max="1400"
+                android:progress="736"
+                android:progressBackgroundTint="@color/transparente"
+                android:progressTint="#FF9100"
+                app:layout_constraintEnd_toEndOf="@+id/progressBar23"
+                app:layout_constraintStart_toStartOf="@+id/progressBar19"
+                app:layout_constraintTop_toTopOf="@+id/progressBar19" />
+
+            <ProgressBar
+                android:id="@+id/progressBar23"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:max="1400"
+                android:progress="535"
+                android:progressBackgroundTint="@color/transparente"
+                android:progressTint="@color/cor_tema"
+                app:layout_constraintEnd_toEndOf="@+id/progressBar19"
+                app:layout_constraintStart_toStartOf="@+id/progressBar19"
+                app:layout_constraintTop_toTopOf="@+id/progressBar19" />
+
+            <ProgressBar
+                android:id="@+id/progressBar24"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="32dp"
+                android:max="1400"
+                android:progress="1400"
+                android:progressBackgroundTint="@color/transparente"
+                android:progressTint="@color/cor_tema"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView15" />
+
+            <ProgressBar
+                android:id="@+id/progressBar25"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:max="1400"
+                android:progress="1021"
+                android:progressBackgroundTint="@color/transparente"
+                android:progressTint="#FF9100"
+                app:layout_constraintEnd_toEndOf="@+id/progressBar24"
+                app:layout_constraintStart_toStartOf="@+id/progressBar24"
+                app:layout_constraintTop_toTopOf="@+id/progressBar24" />
+
+            <ProgressBar
+                android:id="@+id/progressBar27"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:max="1400"
+                android:progress="820"
+                android:progressBackgroundTint="@color/transparente"
+                android:progressTint="@color/cor_tema"
+                app:layout_constraintEnd_toEndOf="@+id/progressBar24"
+                app:layout_constraintStart_toStartOf="@+id/progressBar24"
+                app:layout_constraintTop_toTopOf="@+id/progressBar24" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="16dp"
+                android:elevation="6dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/exemplo"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/conteudo_Fragment">
+
+    <fragment
+        android:id="@+id/ExtraFragment"
+        android:name="com.example.analytics.fragments.Extra_Fragment"
+        android:label="fragment extra"
+        tools:layout="@layout/fragment_extra" >
+        <action
+            android:id="@+id/action_ExtraFragment_to_conteudo_Fragment2"
+            app:destination="@id/conteudo_Fragment" />
+        <action
+            android:id="@+id/action_ExtraFragment_to_donwloadFragment2"
+            app:destination="@id/donwloadFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/conteudo_Fragment"
+        android:name="com.example.analytics.fragments.Conteudo_Fragment"
+        android:label="fragment_conteudo"
+        tools:layout="@layout/fragment_conteudo" >
+        <action
+            android:id="@+id/action_conteudo_Fragment_to_SecondFragment2"
+            app:destination="@id/ExtraFragment" />
+        <action
+            android:id="@+id/action_conteudo_Fragment_to_ExtraFragment"
+            app:destination="@id/ExtraFragment" />
+        <action
+            android:id="@+id/action_conteudo_Fragment_to_donwloadFragment22"
+            app:destination="@id/donwloadFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/donwloadFragment"
+        android:name="com.example.analytics.fragments.Donwload_Fragment"
+        android:label="fragment_donwload"
+        tools:layout="@layout/fragment_donwload" >
+        <action
+            android:id="@+id/action_donwloadFragment2_to_conteudo_Fragment"
+            app:destination="@id/conteudo_Fragment" />
+        <action
+            android:id="@+id/action_donwloadFragment2_to_ExtraFragment"
+            app:destination="@id/ExtraFragment" />
+    </fragment>
+
+</navigation>
