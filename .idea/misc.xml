@@ -33,7 +33,7 @@
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/activity_short_book.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/activity_slader.xml" value="0.1" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/activity_teoria.xml" value="0.33" />
-        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/activity_visualizacao.xml" value="0.25" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/activity_visualizacao.xml" value="0.30153846153846153" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/adapter_continue_estudando.xml" value="0.33" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/adapter_fluxograma_analises.xml" value="0.6902887139107612" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/analises_adapter.xml" value="0.33" />
@@ -67,6 +67,8 @@
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_view_pager_estatistica.xml" value="0.1814814814814815" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_view_pager_lista.xml" value="0.1814814814814815" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_view_pager_novoex.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_visualizacao_conteudos_semelhantesragment.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_visualizacao_detalhes.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/grupos_anions_adapter.xml" value="0.33" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/grupos_cations_adapter.xml" value="0.25" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/grupos_cations_adapter_a.xml" value="0.18" />

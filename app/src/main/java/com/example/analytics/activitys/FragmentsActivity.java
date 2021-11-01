@@ -18,14 +18,12 @@ import com.example.analytics.fragments.DiagramaDeTopoAnionsFragment;
 import com.example.analytics.fragments.FluxogramaAnaliseFragment;
 import com.example.analytics.fragments.LoginFragment;
 import com.example.analytics.fragments.LoginOuCadastroFragment;
-import com.example.analytics.fragments.PreviaConteudoFragment;
 
 public class FragmentsActivity extends AppCompatActivity {
     private DiagramaDeTopoAnionsFragment diagramaDeTopoAnionsFragment;
     private LoginFragment loginFragment;
     private CadastroFragment cadastroFragment;
     private LoginOuCadastroFragment loginOuCadastroFragment;
-    private PreviaConteudoFragment previaConteudoFragment;
     private FluxogramaAnaliseFragment fluxogramaCloretosInsoluveisFragment;
 
 
@@ -83,13 +81,14 @@ public class FragmentsActivity extends AppCompatActivity {
             transaction.replace(R.id.frameConteudo2, diagramaDeTopoAnionsFragment);
             transaction.commit();
         }
-        previaConteudoFragment = new PreviaConteudoFragment();
+        /*previaConteudoFragment = new PreviaConteudoFragment();
         if(numero == 5) {
             getWindow().setNavigationBarColor(ContextCompat.getColor(getApplicationContext(), R.color.black));
             getWindow().setStatusBarColor(ContextCompat.getColor(getApplicationContext(), R.color.transparente));
             transaction.replace(R.id.frameConteudo2, previaConteudoFragment);
             transaction.commit();
         }
+        */
         fluxogramaCloretosInsoluveisFragment = new FluxogramaAnaliseFragment();
         if(numero == 6) {
             getWindow().setNavigationBarColor(ContextCompat.getColor(getApplicationContext(), R.color.black));
