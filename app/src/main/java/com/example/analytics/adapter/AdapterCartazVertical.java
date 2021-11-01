@@ -36,7 +36,7 @@ public class AdapterCartazVertical extends RecyclerView.Adapter<AdapterCartazVer
         return cartazVerticalModels.size();
     }
 
-    public class MyViewHolder extends  RecyclerView.ViewHolder{
+    public class MyViewHolder extends RecyclerView.ViewHolder{
         private ImageView imageView;
 
 

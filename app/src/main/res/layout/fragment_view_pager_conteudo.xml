@@ -31,12 +31,12 @@
                 android:fontFamily="@font/copse"
                 android:text="Novidades no Analytics"
                 android:textColor="@color/white"
-                android:textSize="22sp" />
+                android:textSize="25sp" />
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recyclerNovidades"
                 android:layout_width="match_parent"
-                android:layout_height="220dp"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="8dp" />
 
             <TextView
@@ -44,16 +44,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="16dp"
                 android:fontFamily="@font/copse"
                 android:text="Recomendação especial"
                 android:textColor="@color/white"
-                android:textSize="22sp" />
+                android:textSize="25sp" />
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recyclerRecomendacao"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
 
             </androidx.recyclerview.widget.RecyclerView>
 
@@ -62,15 +63,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
                 android:fontFamily="@font/copse"
                 android:text="Continue estudando"
                 android:textColor="@color/white"
-                android:textSize="22sp" />
+                android:textSize="25sp" />
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recyclerContinue"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp" />
 
             <TextView
                 android:id="@+id/textView20"
@@ -80,12 +83,12 @@
                 android:fontFamily="@font/copse"
                 android:text="Cloretos insolúveis"
                 android:textColor="@color/white"
-                android:textSize="22sp" />
+                android:textSize="25sp" />
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recyclerCloretos"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="wrap_content" />
 
         </LinearLayout>
     </ScrollView>

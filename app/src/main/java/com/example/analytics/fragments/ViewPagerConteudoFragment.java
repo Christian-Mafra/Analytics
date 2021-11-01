@@ -19,8 +19,12 @@ import android.widget.Toast;
 
 import com.example.analytics.R;
 import com.example.analytics.activitys.VisualizacaoActivity;
+import com.example.analytics.adapter.AdapterCartazHorizontal;
 import com.example.analytics.adapter.AdapterCartazVertical;
+import com.example.analytics.adapter.AdapterContinueEstudando;
+import com.example.analytics.model.CartazHorizontalModel;
 import com.example.analytics.model.CartazVerticalModel;
+import com.example.analytics.model.ContinueEstudandoModel;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
@@ -31,6 +35,8 @@ public class ViewPagerConteudoFragment extends Fragment {
     private Animation fabOpen, fabCloser, rotateFarward,rotateBackward;
     private RecyclerView recyclerNovidades, recyclerRecomendacao, recyclerContinue, recyclerCloretos;
     private  List<CartazVerticalModel> listacartazVerticalModels = new ArrayList<>();
+    private List<CartazHorizontalModel> listcartazHorizontalModels = new ArrayList<>();
+    private List<ContinueEstudandoModel> continueEstudando = new ArrayList<>();
 
     boolean isOpen = false;
 
@@ -77,8 +83,6 @@ public class ViewPagerConteudoFragment extends Fragment {
         });
 
         recyclerNovidades = view.findViewById(R.id.recyclerNovidades);
-        //cONFIGURAR rECYCLERvIEW
-
         LinearLayoutManager layoutManager = new LinearLayoutManager(getContext(), LinearLayoutManager.HORIZONTAL,false);
          recyclerNovidades.setLayoutManager(layoutManager);
        // recyclerNovidades.setHasFixedSize(true);
@@ -86,6 +90,26 @@ public class ViewPagerConteudoFragment extends Fragment {
         preparaCartazVertical();
         AdapterCartazVertical adapterCartazVertical = new AdapterCartazVertical(listacartazVerticalModels);
         recyclerNovidades.setAdapter(adapterCartazVertical);
+
+
+
+        recyclerRecomendacao = view.findViewById(R.id.recyclerRecomendacao);
+        LinearLayoutManager layoutManagerC = new LinearLayoutManager(getContext(), LinearLayoutManager.HORIZONTAL,false);
+        recyclerRecomendacao.setLayoutManager(layoutManagerC);
+        //recyclerContinue.setHasFixedSize(true);
+        preparaCartazHorizontal();
+        AdapterCartazHorizontal adapterCartazHorizontal = new AdapterCartazHorizontal(listcartazHorizontalModels);
+        recyclerRecomendacao.setAdapter(adapterCartazHorizontal);
+
+
+
+        recyclerContinue = view.findViewById(R.id.recyclerContinue);
+        LinearLayoutManager layoutManagerA = new LinearLayoutManager(getContext(), LinearLayoutManager.HORIZONTAL,false);
+        recyclerContinue.setLayoutManager(layoutManagerA);
+        //recyclerCloretos.setHasFixedSize(true);
+        preparaContinueAssistindo();
+        AdapterContinueEstudando adapterContinueEstudando = new AdapterContinueEstudando(continueEstudando);
+        recyclerContinue.setAdapter(adapterContinueEstudando);
 
         return view;
     }
@@ -104,20 +128,46 @@ public class ViewPagerConteudoFragment extends Fragment {
     };
 */
     public void preparaCartazVertical(){
-        CartazVerticalModel g = new CartazVerticalModel(R.drawable.cloretosinsoluveis);
+        CartazVerticalModel g = new CartazVerticalModel(R.drawable.glowing);
         this.listacartazVerticalModels.add(g);
-        g = new CartazVerticalModel(R.drawable.imgtest);
+        g = new CartazVerticalModel(R.drawable.glowing);
         this.listacartazVerticalModels.add(g);
-        g = new CartazVerticalModel(R.drawable.imgtest);
+        g = new CartazVerticalModel(R.drawable.glowing);
         this.listacartazVerticalModels.add(g);
-        g = new CartazVerticalModel(R.drawable.imgtest);
+        g = new CartazVerticalModel(R.drawable.glowing);
         this.listacartazVerticalModels.add(g);
-        g = new CartazVerticalModel(R.drawable.imgtest);
+        g = new CartazVerticalModel(R.drawable.glowing);
         this.listacartazVerticalModels.add(g);
-        g = new CartazVerticalModel(R.drawable.imgtest);
+        g = new CartazVerticalModel(R.drawable.glowing);
         this.listacartazVerticalModels.add(g);
-        g = new CartazVerticalModel(R.drawable.imgtest);
+        g = new CartazVerticalModel(R.drawable.glowing);
         this.listacartazVerticalModels.add(g);
+    }
+
+    public void preparaCartazHorizontal(){
+        CartazHorizontalModel h = new CartazHorizontalModel(R.drawable.glowing);
+        this.listcartazHorizontalModels.add(h);
+        h = new CartazHorizontalModel(R.drawable.glowing);
+        this.listcartazHorizontalModels.add(h);
+        h = new CartazHorizontalModel(R.drawable.glowing);
+        this.listcartazHorizontalModels.add(h);
+        h = new CartazHorizontalModel(R.drawable.glowing);
+        this.listcartazHorizontalModels.add(h);
+        h = new CartazHorizontalModel(R.drawable.glowing);
+        this.listcartazHorizontalModels.add(h);
+    }
+
+    public void preparaContinueAssistindo(){
+        ContinueEstudandoModel h = new ContinueEstudandoModel(R.drawable.glowing);
+        this.continueEstudando.add(h);
+        h = new ContinueEstudandoModel(R.drawable.glowing);
+        this.continueEstudando.add(h);
+        h = new ContinueEstudandoModel(R.drawable.glowing);
+        this.continueEstudando.add(h);
+        h = new ContinueEstudandoModel(R.drawable.glowing);
+        this.continueEstudando.add(h);
+        h = new ContinueEstudandoModel(R.drawable.glowing);
+        this.continueEstudando.add(h);
     }
 
 
