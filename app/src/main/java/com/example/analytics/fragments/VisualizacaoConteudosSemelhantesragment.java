@@ -3,64 +3,65 @@ package com.example.analytics.fragments;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.analytics.R;
+import com.example.analytics.adapter.AdapterContinueEstudando;
+import com.example.analytics.adapter.AdapterVisualizacaoConteudo;
+import com.example.analytics.model.CartazVerticalModel;
+import com.example.analytics.model.VisualizacaoConteudoModel;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link VisualizacaoConteudosSemelhantesragment#newInstance} factory method to
- * create an instance of this fragment.
- */
+import java.util.ArrayList;
+import java.util.List;
+
 public class VisualizacaoConteudosSemelhantesragment extends Fragment {
-
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
-
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
-
-    public VisualizacaoConteudosSemelhantesragment() {
-        // Required empty public constructor
-    }
-
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment VisualizacaoConteudosSemelhantesragment.
-     */
-    // TODO: Rename and change types and number of parameters
-    public static VisualizacaoConteudosSemelhantesragment newInstance(String param1, String param2) {
-        VisualizacaoConteudosSemelhantesragment fragment = new VisualizacaoConteudosSemelhantesragment();
-        Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
-        fragment.setArguments(args);
-        return fragment;
-    }
-
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
-    }
+    private RecyclerView recyclerViewVisualizacaoConteudo;
+    private List<VisualizacaoConteudoModel> visualizacaoConteudoModelList = new ArrayList<>();
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_visualizacao_conteudos_semelhantesragment, container, false);
+
+        View view = inflater.inflate(R.layout.fragment_visualizacao_conteudos_semelhantesragment, container, false);
+
+        recyclerViewVisualizacaoConteudo = view.findViewById(R.id.RecyclerViewVisualizacaoConteudo);
+
+
+        RecyclerView.LayoutManager layoutManagerA = new GridLayoutManager(getContext(), 3);
+        recyclerViewVisualizacaoConteudo.setLayoutManager(layoutManagerA);
+        //recyclerCloretos.setHasFixedSize(true);
+        preparaVisualizacaoConteudo();
+        AdapterVisualizacaoConteudo adapterVisualizacaoConteudo = new AdapterVisualizacaoConteudo(visualizacaoConteudoModelList);
+        recyclerViewVisualizacaoConteudo.setAdapter(adapterVisualizacaoConteudo);
+
+
+        return view;
+    }
+
+    public void preparaVisualizacaoConteudo(){
+        VisualizacaoConteudoModel g = new VisualizacaoConteudoModel(R.drawable.diagramadetopo);
+        this.visualizacaoConteudoModelList.add(g);
+        g = new VisualizacaoConteudoModel(R.drawable.bill);
+        this.visualizacaoConteudoModelList.add(g);
+        g = new VisualizacaoConteudoModel(R.drawable.drew);
+        this.visualizacaoConteudoModelList.add(g);
+        g = new VisualizacaoConteudoModel(R.drawable.aniong2);
+        this.visualizacaoConteudoModelList.add(g);
+        g = new VisualizacaoConteudoModel(R.drawable.flasks);
+        this.visualizacaoConteudoModelList.add(g);
+        g = new VisualizacaoConteudoModel(R.drawable.girl);
+        this.visualizacaoConteudoModelList.add(g);
+        g = new VisualizacaoConteudoModel(R.drawable.teamwork);
+        this.visualizacaoConteudoModelList.add(g);
+        g = new VisualizacaoConteudoModel(R.drawable.aniong4);
+        this.visualizacaoConteudoModelList.add(g);
+        g = new VisualizacaoConteudoModel(R.drawable.image5);
+        this.visualizacaoConteudoModelList.add(g);
     }
 }

@@ -33,7 +33,7 @@
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/activity_short_book.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/activity_slader.xml" value="0.1" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/activity_teoria.xml" value="0.33" />
-        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/activity_visualizacao.xml" value="0.30153846153846153" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/activity_visualizacao.xml" value="0.22" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/adapter_continue_estudando.xml" value="0.33" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/adapter_fluxograma_analises.xml" value="0.6902887139107612" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/analises_adapter.xml" value="0.33" />
@@ -73,6 +73,7 @@
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/grupos_cations_adapter.xml" value="0.25" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/grupos_cations_adapter_a.xml" value="0.18" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/novidade_adapter.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/visualizacao_conteudo.xml" value="0.25" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2203125" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.21203703703703702" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/mipmap-anydpi-v26/logo.xml" value="0.17685185185185184" />

@@ -40,11 +40,21 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/ic_baseline_play_circle_filled_24" />
 
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_fundo"
             android:orientation="vertical">
 
             <TextView
@@ -119,22 +129,23 @@
             </LinearLayout>
 
             <com.ogaclejapan.smarttablayout.SmartTabLayout
-                android:id="@+id/viewpagertab"
+                android:id="@+id/viewPagerTab"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 app:stl_clickable="true"
                 app:stl_defaultTabBackground="?attr/selectableItemBackground"
-                app:stl_defaultTabTextAllCaps="true"
-                app:stl_defaultTabTextColor="#FC000000"
+
+                app:stl_defaultTabTextAllCaps="false"
+                app:stl_defaultTabTextColor="@color/white"
                 app:stl_defaultTabTextHorizontalPadding="16dp"
                 app:stl_defaultTabTextMinWidth="0dp"
                 app:stl_defaultTabTextSize="12sp"
                 app:stl_distributeEvenly="false"
-                app:stl_dividerColor="#4D000000"
-                app:stl_dividerThickness="1dp"
+                app:stl_dividerColor="@color/white"
+                app:stl_dividerThickness="0dp"
                 app:stl_drawDecorationAfterTab="false"
                 app:stl_indicatorAlwaysInCenter="false"
-                app:stl_indicatorColor="#40C4FF"
+                app:stl_indicatorColor="@color/cor_tema_claro"
                 app:stl_indicatorCornerRadius="2dp"
                 app:stl_indicatorGravity="bottom"
                 app:stl_indicatorInFront="false"
@@ -150,18 +161,13 @@
                 tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
             <androidx.viewpager.widget.ViewPager
-                android:id="@+id/viewpager"
+                android:id="@+id/viewPagerVisualizacao"
                 android:layout_width="match_parent"
-                android:layout_height="1500dp"
-                android:layout_below="@id/viewpagertab"
+                android:layout_height="615dp"
+                android:layout_below="@id/viewPagerTab"
+                android:layout_marginTop="8dp"
                 tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
         </LinearLayout>
-
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/ic_baseline_play_circle_filled_24" />
 
     </LinearLayout>
 

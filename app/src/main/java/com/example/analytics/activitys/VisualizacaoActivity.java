@@ -46,10 +46,10 @@ public class VisualizacaoActivity extends AppCompatActivity {
                 .add("Detalhes", VisualizacaoDetalhesFragment.class)
                 .create());
 
-        ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
+        ViewPager viewPager = (ViewPager) findViewById(R.id.viewPagerVisualizacao);
         viewPager.setAdapter(adapter);
 
-        SmartTabLayout viewPagerTab = (SmartTabLayout) findViewById(R.id.viewpagertab);
+        SmartTabLayout viewPagerTab = (SmartTabLayout) findViewById(R.id.viewPagerTab);
         viewPagerTab.setViewPager(viewPager);
 
     }
