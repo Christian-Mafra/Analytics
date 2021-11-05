@@ -1,7 +1,5 @@
 package com.example.analytics.adapter;
 
-import android.content.Context;
-import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,13 +7,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.analytics.R;
-import com.example.analytics.activitys.FragmentsActivity;
-import com.example.analytics.activitys.PrincipalActivity;
-import com.example.analytics.fragments.Novo_experimento_fragment;
 import com.example.analytics.model.GruposCations;
 
 import java.util.List;
@@ -33,7 +27,7 @@ public class AdapterGruposCations extends RecyclerView.Adapter<AdapterGruposCati
     @Override
     public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View itemLista = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.grupos_cations_adapter,parent,false);
+                .inflate(R.layout.adapter_grupos_cations,parent,false);
 
         return new MyViewHolder(itemLista);
     }

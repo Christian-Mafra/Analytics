@@ -11,6 +11,7 @@
         android:theme="@style/Theme.Analytics">
         <activity
             android:name=".activitys.VisualizacaoActivity"
+            android:screenOrientation="portrait"
             android:exported="true" />
         <activity
             android:name=".activitys.ShortBookActivity"

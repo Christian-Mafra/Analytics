@@ -6,6 +6,7 @@ import android.widget.TextView;
 public class FluxogramaAnalisesModel {
     private String passo, procedimento, aSwitch;
 
+
     public FluxogramaAnalisesModel(String passo, String procedimento, String aSwitch) {
         this.passo = passo;
         this.procedimento = procedimento;

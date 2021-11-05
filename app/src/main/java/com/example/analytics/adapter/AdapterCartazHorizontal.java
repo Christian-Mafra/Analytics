@@ -20,7 +20,7 @@ public class AdapterCartazHorizontal extends RecyclerView.Adapter<AdapterCartazH
     @Override
     public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View itemLista = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.cartaz_horizontal_adapter,parent,false);
+                .inflate(R.layout.adapter_cartaz_horizontal,parent,false);
         return new AdapterCartazHorizontal.MyViewHolder(itemLista);
     }
 

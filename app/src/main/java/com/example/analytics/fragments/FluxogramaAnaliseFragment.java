@@ -64,25 +64,46 @@ public class FluxogramaAnaliseFragment extends Fragment {
     }
 
     public void preparaFluxo(){
-        FluxogramaAnalisesModel g = new FluxogramaAnalisesModel("Passo 1: Adição de HCl","Adiciona 2 mL de HCl 6Molar","Houve a formação de um precipitado branco?");
+        FluxogramaAnalisesModel g = new FluxogramaAnalisesModel
+                ("Passo 1: Adição de HCl"
+                         ,"Adicione gota a gota de HCl diluído até completar a precipitação. Centrifugue e separe o sobrenadante do precipitado."
+                         ,"Houve a formação de um precipitado branco?");
         this.analisesModelList.add(g);
 
-        g = new FluxogramaAnalisesModel("Passo 2: Solubilização do chumbo","Adiciona gotas de cromato de potássio","Houve a formação de um precipitado amarelo?");
+        g = new FluxogramaAnalisesModel
+                ("Passo 2: Solubilização do chumbo"
+                        ,"Adiciona gotas de cromato de potássio"
+                        ,"Houve a formação de um precipitado amarelo?");
         this.analisesModelList.add(g);
 
-        g = new FluxogramaAnalisesModel("Passo 3: Identificação do chumbo","Adiciona gotas de cromato de potássio","Houve a formação de um precipitado amarelo?");
+        g = new FluxogramaAnalisesModel
+                ("Passo 3: Identificação do chumbo"
+                        ,"Adiciona gotas de cromato de potássio"
+                        ,"Houve a formação de um precipitado amarelo?");
         this.analisesModelList.add(g);
 
-        g = new FluxogramaAnalisesModel("Passo 2: Solubilização do chumbo","Adiciona gotas de cromato de potássio","Houve a formação de um precipitado amarelo?");
+        g = new FluxogramaAnalisesModel
+                ("Passo 2: Solubilização do chumbo"
+                        ,"Adiciona gotas de cromato de potássio"
+                        ,"Houve a formação de um precipitado amarelo?");
         this.analisesModelList.add(g);
 
-        g = new FluxogramaAnalisesModel("Passo 3: Identificação do chumbo","Adiciona gotas de cromato de potássio","Houve a formação de um precipitado amarelo?");
+        g = new FluxogramaAnalisesModel
+                ("Passo 3: Identificação do chumbo"
+                        ,"Adiciona gotas de cromato de potássio"
+                        ,"Houve a formação de um precipitado amarelo?");
         this.analisesModelList.add(g);
         
-        g = new FluxogramaAnalisesModel("Passo 2: Solubilização do chumbo","Adiciona gotas de cromato de potássio","Houve a formação de um precipitado amarelo?");
+        g = new FluxogramaAnalisesModel
+                ("Passo 2: Solubilização do chumbo"
+                        ,"Adiciona gotas de cromato de potássio"
+                        ,"Houve a formação de um precipitado amarelo?");
         this.analisesModelList.add(g);
 
-        g = new FluxogramaAnalisesModel("Passo 3: Identificação do chumbo","Adiciona gotas de cromato de potássio","Houve a formação de um precipitado amarelo?");
+        g = new FluxogramaAnalisesModel
+                ("Passo 3: Identificação do chumbo"
+                        ,"Adiciona gotas de cromato de potássio"
+                        ,"Houve a formação de um precipitado amarelo?");
         this.analisesModelList.add(g);
 
 

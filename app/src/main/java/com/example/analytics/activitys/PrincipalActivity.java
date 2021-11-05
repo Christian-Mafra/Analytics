@@ -30,6 +30,7 @@ import android.widget.LinearLayout;
 import com.example.analytics.R;
 import com.example.analytics.fragments.Conteudo_Fragment;
 import com.example.analytics.fragments.Estatistica_Fragment;
+import com.example.analytics.fragments.ExperimentosFragment;
 import com.example.analytics.fragments.Lista_Fragment;
 import com.example.analytics.fragments.Novo_experimento_fragment;
 import com.example.analytics.fragments.ViewPagerConteudoFragment;
@@ -45,7 +46,7 @@ import java.util.List;
 public class PrincipalActivity extends AppCompatActivity {
     private ViewPager viewPager;
     private TabLayout tabLayout;
-    private Novo_experimento_fragment novo_experimento_fragment;
+    private ExperimentosFragment experimento_fragment;
     private ViewPagerConteudoFragment view_pager_conteudo_fragment;
     private Lista_Fragment lista_fragment;
     private Estatistica_Fragment estatistica_fragment;
@@ -83,7 +84,7 @@ public class PrincipalActivity extends AppCompatActivity {
             }
         });
 
-        novo_experimento_fragment = new Novo_experimento_fragment();
+        experimento_fragment = new ExperimentosFragment();
         view_pager_conteudo_fragment = new ViewPagerConteudoFragment();
         lista_fragment = new Lista_Fragment();
         estatistica_fragment = new Estatistica_Fragment();
@@ -99,7 +100,7 @@ public class PrincipalActivity extends AppCompatActivity {
         viewPagerAdapter.addFragments(view_pager_conteudo_fragment,"");
         viewPagerAdapter.addFragments(lista_fragment,"");
         viewPagerAdapter.addFragments(estatistica_fragment,"");
-        viewPagerAdapter.addFragments(novo_experimento_fragment,"");
+        viewPagerAdapter.addFragments(experimento_fragment,"");
         viewPager.setAdapter(viewPagerAdapter);
 
 

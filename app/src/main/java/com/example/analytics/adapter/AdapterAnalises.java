@@ -12,7 +12,6 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.analytics.R;
 import com.example.analytics.model.FluxogramaAnalisesModel;
-import com.example.analytics.model.GruposCations;
 
 import java.util.List;
 
@@ -29,7 +28,7 @@ public class AdapterAnalises extends RecyclerView.Adapter<AdapterAnalises.MyView
     @Override
     public AdapterAnalises.MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View itemLista = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.analises_adapter,parent,false);
+                .inflate(R.layout.adapter_analises,parent,false);
 
         return new MyViewHolder(itemLista);
     }

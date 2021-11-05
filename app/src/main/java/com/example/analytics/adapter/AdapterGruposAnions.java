@@ -11,7 +11,6 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.analytics.R;
 import com.example.analytics.model.GruposAnions;
-import com.example.analytics.model.GruposCations;
 
 import java.util.List;
 
@@ -28,7 +27,7 @@ public class AdapterGruposAnions extends RecyclerView.Adapter<AdapterGruposAnion
     @Override
     public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View itemLista = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.grupos_anions_adapter,parent,false);
+                .inflate(R.layout.adapter_grupos_anions,parent,false);
         return new MyViewHolder(itemLista);
     }
 

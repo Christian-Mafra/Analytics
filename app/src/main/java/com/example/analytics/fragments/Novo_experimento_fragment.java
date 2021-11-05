@@ -36,8 +36,8 @@ public class Novo_experimento_fragment extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_novo_experimento_fragment, container, false);
 
-        recyclerViewAnaliseCations = view.findViewById(R.id.recyclerViewAnaliseCations);
 
+        recyclerViewAnaliseCations = view.findViewById(R.id.recyclerViewAnaliseCations);
         //Configurar adapter
         setOnClickListner();
         this.preparaGruposCations();
@@ -49,10 +49,9 @@ public class Novo_experimento_fragment extends Fragment {
         recyclerViewAnaliseCations.setLayoutManager(layoutManager);
         recyclerViewAnaliseCations.setHasFixedSize(true);
 
+
         recyclerViewAnaliseAnions = view.findViewById(R.id.recyclerViewAnaliseAnions);
-
         //Configurar adapter
-
         this.preparaGruposAnions();
         AdapterGruposAnions adapterGruposAnions = new AdapterGruposAnions(gruposAnions, listner2);
         recyclerViewAnaliseAnions.setAdapter(adapterGruposAnions);

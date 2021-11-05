@@ -3,7 +3,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import androidx.annotation.NonNull;
+
 import androidx.recyclerview.widget.RecyclerView;
 import com.example.analytics.R;
 import com.example.analytics.model.CartazVerticalModel;
@@ -20,7 +20,7 @@ public class AdapterCartazVertical extends RecyclerView.Adapter<AdapterCartazVer
     @Override
     public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View itemLista = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.cartaz_vertical_adapter,parent,false);
+                .inflate(R.layout.adapter_cartaz_vertical,parent,false);
         return new MyViewHolder(itemLista);
     }
 

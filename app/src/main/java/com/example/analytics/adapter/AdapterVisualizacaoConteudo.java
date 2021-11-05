@@ -24,7 +24,7 @@ public class AdapterVisualizacaoConteudo extends RecyclerView.Adapter<AdapterVis
     @Override
     public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View itemLista = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.visualizacao_conteudo,parent,false);
+                .inflate(R.layout.adapter_visualizacao_conteudo,parent,false);
         return new AdapterVisualizacaoConteudo.MyViewHolder(itemLista);
     }
 
