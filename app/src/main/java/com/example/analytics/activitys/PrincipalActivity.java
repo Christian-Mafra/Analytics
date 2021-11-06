@@ -65,22 +65,11 @@ public class PrincipalActivity extends AppCompatActivity {
 
 
         imageButton3 = findViewById(R.id.imageButton3);
-        fundo = findViewById(R.id.fundo);
         imageButton3.setOnClickListener(new View.OnClickListener() {
-            int card7 = 0;
             public void onClick(View view) {
-                if (card7 == 0) {
-                    //setBackgroundColor(Color.argb(255, 255, 255, 255));
-                    fundo.setBackground(getDrawable(R.drawable.background_fundo_buy));
-                    getWindow().setNavigationBarColor(ContextCompat.getColor(getApplicationContext(), R.color.white));
-                    getWindow().setStatusBarColor(ContextCompat.getColor(getApplicationContext(), R.color.fundo_buy));
-                    card7 = 1;
-                } else {
-                    fundo.setBackground(getDrawable(R.drawable.background_fundo));
-                    getWindow().setNavigationBarColor(ContextCompat.getColor(getApplicationContext(), R.color.cor_tema));
-                    getWindow().setStatusBarColor(ContextCompat.getColor(getApplicationContext(), R.color.cor_tema));
-                    card7 = 0;
-                }
+                Intent intent = new Intent(getApplicationContext(), FragmentsActivity.class);
+                intent.putExtra("fragments",7);
+                startActivity(intent);
             }
         });
 

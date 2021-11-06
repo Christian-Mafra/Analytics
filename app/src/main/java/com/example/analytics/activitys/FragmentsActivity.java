@@ -19,6 +19,7 @@ import com.example.analytics.fragments.FluxogramaAnaliseFragment;
 import com.example.analytics.fragments.LoginFragment;
 import com.example.analytics.fragments.LoginOuCadastroFragment;
 import com.example.analytics.fragments.Novo_experimento_fragment;
+import com.example.analytics.fragments.QuemSomosFragment;
 
 public class FragmentsActivity extends AppCompatActivity {
     private DiagramaDeTopoAnionsFragment diagramaDeTopoAnionsFragment;
@@ -27,6 +28,7 @@ public class FragmentsActivity extends AppCompatActivity {
     private LoginOuCadastroFragment loginOuCadastroFragment;
     private Novo_experimento_fragment novo_experimento_fragment;
     private FluxogramaAnaliseFragment fluxogramaCloretosInsoluveisFragment;
+    private QuemSomosFragment quemSomosFragment;
 
 
 
@@ -95,6 +97,13 @@ public class FragmentsActivity extends AppCompatActivity {
             getWindow().setNavigationBarColor(ContextCompat.getColor(getApplicationContext(), R.color.black));
             getWindow().setStatusBarColor(ContextCompat.getColor(getApplicationContext(), R.color.transparente));
             transaction.replace(R.id.frameConteudo2, fluxogramaCloretosInsoluveisFragment);
+            transaction.commit();
+        }
+        quemSomosFragment = new QuemSomosFragment();
+        if(numero == 7) {
+            getWindow().setNavigationBarColor(ContextCompat.getColor(getApplicationContext(), R.color.black));
+            getWindow().setStatusBarColor(ContextCompat.getColor(getApplicationContext(), R.color.transparente));
+            transaction.replace(R.id.frameConteudo2, quemSomosFragment);
             transaction.commit();
         }
     }

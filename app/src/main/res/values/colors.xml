@@ -17,5 +17,6 @@
     <color name="vermelho_select">#7A0000</color>
     <color name="vermelhoescuro_select">#330000</color>
     <color name="branco_transparente">#BFFFFFFF</color>
+    <color name="dourado">#FFC400</color>
     />
 </resources>
