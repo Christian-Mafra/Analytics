@@ -18,7 +18,7 @@ import com.example.analytics.fragments.DiagramaDeTopoAnionsFragment;
 import com.example.analytics.fragments.FluxogramaAnaliseFragment;
 import com.example.analytics.fragments.LoginFragment;
 import com.example.analytics.fragments.LoginOuCadastroFragment;
-import com.example.analytics.fragments.Novo_experimento_fragment;
+import com.example.analytics.fragments.NovoExperimentoFragment;
 import com.example.analytics.fragments.QuemSomosFragment;
 
 public class FragmentsActivity extends AppCompatActivity {
@@ -26,8 +26,8 @@ public class FragmentsActivity extends AppCompatActivity {
     private LoginFragment loginFragment;
     private CadastroFragment cadastroFragment;
     private LoginOuCadastroFragment loginOuCadastroFragment;
-    private Novo_experimento_fragment novo_experimento_fragment;
-    private FluxogramaAnaliseFragment fluxogramaCloretosInsoluveisFragment;
+    private NovoExperimentoFragment viewPagerNovo_experimentoFragment;
+    private FluxogramaAnaliseFragment fluxogramaAnaliseFragment;
     private QuemSomosFragment quemSomosFragment;
 
 
@@ -85,18 +85,18 @@ public class FragmentsActivity extends AppCompatActivity {
             transaction.replace(R.id.frameConteudo2, diagramaDeTopoAnionsFragment);
             transaction.commit();
         }
-        novo_experimento_fragment = new Novo_experimento_fragment();
+        viewPagerNovo_experimentoFragment = new NovoExperimentoFragment();
         if(numero == 5) {
-            getWindow().setNavigationBarColor(ContextCompat.getColor(getApplicationContext(), R.color.black));
+            getWindow().setNavigationBarColor(ContextCompat.getColor(getApplicationContext(), R.color.cor_tema_escuro));
             getWindow().setStatusBarColor(ContextCompat.getColor(getApplicationContext(), R.color.transparente));
-            transaction.replace(R.id.frameConteudo2, novo_experimento_fragment);
+            transaction.replace(R.id.frameConteudo2, viewPagerNovo_experimentoFragment);
             transaction.commit();
         }
-        fluxogramaCloretosInsoluveisFragment = new FluxogramaAnaliseFragment();
+        fluxogramaAnaliseFragment = new FluxogramaAnaliseFragment();
         if(numero == 6) {
-            getWindow().setNavigationBarColor(ContextCompat.getColor(getApplicationContext(), R.color.black));
+            getWindow().setNavigationBarColor(ContextCompat.getColor(getApplicationContext(), R.color.cor_tema_escuro));
             getWindow().setStatusBarColor(ContextCompat.getColor(getApplicationContext(), R.color.transparente));
-            transaction.replace(R.id.frameConteudo2, fluxogramaCloretosInsoluveisFragment);
+            transaction.replace(R.id.frameConteudo2, fluxogramaAnaliseFragment);
             transaction.commit();
         }
         quemSomosFragment = new QuemSomosFragment();

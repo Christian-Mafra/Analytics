@@ -8,6 +8,7 @@
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/drawable/background_fundo_buy.xml" value="0.1638888888888889" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/drawable/button_custom.xml" value="0.16203703703703703" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/drawable/custom_tab.xml" value="0.2203125" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.2203125" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/drawable/ic_baseline_add_circle_outline_24.xml" value="0.2203125" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/drawable/ic_baseline_add_circle_outline_f_24.xml" value="0.2203125" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/drawable/ic_baseline_bar_chart_24.xml" value="0.2203125" />
@@ -39,13 +40,17 @@
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/adapter_cartaz_vertical.xml" value="0.20102564102564102" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/adapter_continue_estudando.xml" value="0.33" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/adapter_experimentos.xml" value="0.4083333333333333" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/adapter_fluxograma_analise.xml" value="0.25" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/adapter_fluxograma_analises.xml" value="0.6902887139107612" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/adapter_quem_somos.xml" value="0.33" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/adapter_visualizacao_conteudo.xml" value="0.19722222222222222" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/analises_adapter.xml" value="0.33" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/cartaz_horizontal_adapter.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/cartaz_vertical_adapter.xml" value="0.25" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/custom_tab.xml" value="0.33" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/custom_tab_f.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_analises_test_list_dialog.xml" value="0.33" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_analises_test_list_dialog_item.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_anions.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_cadastro.xml" value="0.33" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_cations.xml" value="0.22" />
@@ -55,10 +60,10 @@
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_donwload.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_estatistica3.xml" value="0.1814814814814815" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_estatistica_.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_experimentos.xml" value="0.20102564102564102" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_experimentos.xml" value="0.25" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_extra.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_first.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_fluxograma_analise.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_fluxograma_analise.xml" value="0.2" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_fluxograma_analise_cations.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_fluxograma_cloretos_insoluveis.xml" value="0.25" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_grupos_cations.xml" value="0.25" />
@@ -66,7 +71,7 @@
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_login.xml" value="0.2" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_login_ou_cadastro.xml" value="0.25" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_novo1.xml" value="0.1814814814814815" />
-        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_novo_experimento_fragment.xml" value="0.18131359851988899" />
+        <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_novo_experimento_fragment.xml" value="0.45368620037807184" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_previa_conteudo.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_quem_somos.xml" value="0.25" />
         <entry key="..\:/Users/Bia/AndroidStudioProjects/Analytics/app/src/main/res/layout/fragment_shortbook.xml" value="0.1814814814814815" />

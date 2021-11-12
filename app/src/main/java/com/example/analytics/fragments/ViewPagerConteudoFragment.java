@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
-import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -14,7 +13,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
-import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.example.analytics.R;
@@ -46,7 +44,7 @@ public class ViewPagerConteudoFragment extends Fragment {
 
         View view = inflater.inflate(R.layout.fragment_view_pager_conteudo, container, false);
 
-        fabMais = view.findViewById(R.id.fabMais);
+        fabMais = view.findViewById(R.id.fabAddAnalise);
         fabConteudo = view.findViewById(R.id.fabConteudo);
         fabShortBook = view.findViewById(R.id.fabShortBook);
         fabDonwload = view.findViewById(R.id.fabDonwload);
@@ -54,6 +52,7 @@ public class ViewPagerConteudoFragment extends Fragment {
         fabCloser = AnimationUtils.loadAnimation(getContext(),R.anim.fab_closer);
         rotateFarward = AnimationUtils.loadAnimation(getContext(),R.anim.rolate_forword);
         rotateBackward = AnimationUtils.loadAnimation(getContext(),R.anim.rolate_backword);
+
         fabMais.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -173,7 +172,7 @@ public class ViewPagerConteudoFragment extends Fragment {
 
     public void animateFab(){
         if(isOpen){
-            fabMais.startAnimation(rotateBackward);
+            fabMais.startAnimation(rotateFarward);
             fabConteudo.startAnimation(fabCloser);
             fabConteudo.setVisibility(View.INVISIBLE);
             fabShortBook.startAnimation(fabCloser);
@@ -182,7 +181,7 @@ public class ViewPagerConteudoFragment extends Fragment {
             fabDonwload.setVisibility(View.INVISIBLE);
             isOpen = false;
         }else{
-            fabMais.startAnimation(rotateFarward);
+            fabMais.startAnimation(rotateBackward);
             fabDonwload.setVisibility(View.VISIBLE);
             fabDonwload.startAnimation(fabOpen);
             fabShortBook.setVisibility(View.VISIBLE);

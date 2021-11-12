@@ -22,7 +22,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class Novo_experimento_fragment extends Fragment {
+public class NovoExperimentoFragment extends Fragment {
     private RecyclerView recyclerViewAnaliseCations, recyclerViewAnaliseAnions;
     private List<GruposCations> gruposCations = new ArrayList<>();
     private List<GruposAnions> gruposAnions = new ArrayList<>();

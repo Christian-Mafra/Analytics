@@ -3,9 +3,6 @@ package com.example.analytics.activitys;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.content.res.AppCompatResources;
-import androidx.cardview.widget.CardView;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
@@ -14,28 +11,19 @@ import androidx.viewpager.widget.ViewPager;
 
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Color;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
-import android.text.SpannableString;
-import android.text.Spanned;
-import android.text.style.ImageSpan;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageButton;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import com.example.analytics.R;
-import com.example.analytics.fragments.Conteudo_Fragment;
 import com.example.analytics.fragments.Estatistica_Fragment;
-import com.example.analytics.fragments.ExperimentosFragment;
+import com.example.analytics.fragments.ViewPagerExperimentosFragment;
 import com.example.analytics.fragments.Lista_Fragment;
-import com.example.analytics.fragments.Novo_experimento_fragment;
 import com.example.analytics.fragments.ViewPagerConteudoFragment;
 import com.google.android.material.badge.BadgeDrawable;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.tabs.TabLayout;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
@@ -46,7 +34,7 @@ import java.util.List;
 public class PrincipalActivity extends AppCompatActivity {
     private ViewPager viewPager;
     private TabLayout tabLayout;
-    private ExperimentosFragment experimento_fragment;
+    private ViewPagerExperimentosFragment experimento_fragment;
     private ViewPagerConteudoFragment view_pager_conteudo_fragment;
     private Lista_Fragment lista_fragment;
     private Estatistica_Fragment estatistica_fragment;
@@ -73,7 +61,7 @@ public class PrincipalActivity extends AppCompatActivity {
             }
         });
 
-        experimento_fragment = new ExperimentosFragment();
+        experimento_fragment = new ViewPagerExperimentosFragment();
         view_pager_conteudo_fragment = new ViewPagerConteudoFragment();
         lista_fragment = new Lista_Fragment();
         estatistica_fragment = new Estatistica_Fragment();
